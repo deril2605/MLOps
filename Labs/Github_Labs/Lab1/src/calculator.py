@@ -8,6 +8,7 @@ def fun1(x, y):
         int/float: Sum of x and y.
         Raises:
         ValueError: If x or y is not a number.
+        
     """
     if not (isinstance(x, (int, float)) and isinstance(y, (int, float))):
         raise ValueError("Both inputs must be numbers.")
